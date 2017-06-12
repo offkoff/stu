@@ -1,4 +1,4 @@
-// конструктор создает пару
+//const make a pair
 const cons = (x, y) => (m) => m(x, y);
 
 const car = z => z((x, y) => x);
